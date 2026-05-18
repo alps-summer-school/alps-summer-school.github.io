@@ -12,3 +12,21 @@ $primary-color: #b32a28;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ===== ALPS home banner — logo + CTA, in place of the splash hero ===== */
+.alps-banner {
+  text-align: center;
+  margin: 1.5em 0 2.5em;
+}
+
+.alps-banner__logo {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.alps-banner__cta {
+  margin-top: 1.25em;
+}

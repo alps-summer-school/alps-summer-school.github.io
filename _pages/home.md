@@ -2,14 +2,13 @@
 layout: splash
 permalink: /
 title: "ALPS — Advanced Lectures in Physics"
-header:
-  overlay_image: /assets/images/hero.jpg
-  overlay_filter: 0.3
-  actions:
-    - label: "ALPS III (2026) on Indico"
-      url: https://indico.global/event/9670/
 excerpt: "An annual junior summer school in theoretical physics."
 ---
+
+<div class="alps-banner">
+  <img class="alps-banner__logo" src="{{ '/assets/images/alps-logo.svg' | relative_url }}" alt="ALPS — Advanced Lectures in Physics">
+  <p class="alps-banner__cta"><a class="btn btn--primary btn--large" href="https://indico.global/event/9670/">ALPS III (2026) on Indico</a></p>
+</div>
 
 ## About the school
 
