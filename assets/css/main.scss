@@ -1,0 +1,14 @@
+---
+# Custom Sass entry point (overrides the remote theme's assets/css/main.scss).
+# $primary-color is set BEFORE the skin import so the skin's blue `!default`
+# values are skipped and the brand red cascades to buttons and, via
+# $footer-background-color, the footer.
+---
+
+@charset "utf-8";
+
+// ALPS brand red — replaces the "air" skin's $primary-color (#0092ca).
+$primary-color: #b32a28;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
