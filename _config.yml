@@ -19,7 +19,7 @@ email:
 description: "ALPS: an annual junior summer school in theoretical physics at the SwissMAP Research Station, Les Diablerets, Switzerland."
 url: "https://alps-summer-school.github.io"
 baseurl: ""
-logo: "/assets/images/alps-logo.png"
+logo: "/assets/images/alps-logo-notext.svg"
 twitter_username:
 github_username:
 minimal_mistakes_skin: "air"
