@@ -1,0 +1,20 @@
+# ALPS editions — newest first. Add a future edition by appending an entry here;
+# the home page sorts by `year` descending automatically.
+- year: 2026
+  title: "ALPS III: Exploring phases of matter through symmetries and tensor networks"
+  dates: "17-22 May 2026"
+  location: "Les Diablerets, Switzerland"
+  image: /assets/images/alps-2026.jpg
+  indico_url: https://indico.global/event/9670/
+- year: 2025
+  title: "ALPS II: Modern topics in quantum many-body physics"
+  dates: "25-30 May 2025"
+  location: "Les Diablerets, Switzerland"
+  image: /assets/images/alps-2025.jpg
+  indico_url: https://indico.global/event/9641/
+- year: 2024
+  title: "ALPS I: Quantum information, from gravity to computers and back"
+  dates: "12-17 May 2024"
+  location: "Les Diablerets, Switzerland"
+  image: /assets/images/alps-2024.jpg
+  indico_url: https://indico.global/event/9618/

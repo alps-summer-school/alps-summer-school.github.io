@@ -1,0 +1,19 @@
+{%- assign editions = site.data.editions | sort: "year" | reverse -%}
+<div class="feature__wrapper">
+  {%- for e in editions %}
+  <div class="feature__item">
+    <div class="archive__item">
+      {%- if e.image %}
+      <div class="archive__item-teaser">
+        <a href="{{ e.indico_url }}"><img src="{{ e.image | relative_url }}" alt="{{ e.title }}"></a>
+      </div>
+      {%- endif %}
+      <div class="archive__item-body">
+        <h2 class="archive__item-title"><a href="{{ e.indico_url }}">{{ e.title }}</a></h2>
+        <p class="archive__item-excerpt"><strong>{{ e.dates }}</strong> &middot; {{ e.location }}</p>
+        <p><a href="{{ e.indico_url }}" class="btn btn--primary">View on Indico</a></p>
+      </div>
+    </div>
+  </div>
+  {%- endfor %}
+</div>
