@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "en-US"
-title: "ALPS — Advanced Lectures in Physics"
+title: "ALPS — Advanced Lectures in Physics in Switzerland"
 email:
 description: "ALPS: an annual junior summer school in theoretical physics at the SwissMAP Research Station, Les Diablerets, Switzerland."
 url: "https://alps-summer-school.github.io"
