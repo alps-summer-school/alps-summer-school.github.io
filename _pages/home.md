@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 title: "ALPS — Advanced Lectures in Physics in Switzerland"
-excerpt: "An annual junior summer school in theoretical physics."
+excerpt: "An annual summer school in theoretical physics for PhD students."
 ---
 
 <div class="alps-banner">
@@ -11,15 +11,19 @@ excerpt: "An annual junior summer school in theoretical physics."
 
 ## About the school
 
-**ALPS — Advanced Lectures in Physics in Switzerland** is an annual junior summer school in
-theoretical physics, held in the Swiss Alps. Each edition runs for about six
-days in May at the SwissMAP Research Station, Hotel Les Sources, in
-Les Diablerets, Switzerland.
+**ALPS — Advanced Lectures in Physics in Switzerland** is an annual summer
+school in theoretical physics for PhD students, held each May in the Swiss
+Alps. Each edition runs for about six days at the SwissMAP Research Station in
+Les Diablerets.
 
-Every year the school is built around a single theme in modern theoretical
-physics, bringing students together with the lecturers in an informal Alpine
-setting. The full programme, speakers, and registration for each edition are
-hosted on its Indico page — linked below.
+Every edition centres on a single theme in modern theoretical physics, taught
+through blackboard lecture courses and exercise sessions alongside a colloquium
+and a closing discussion panel. In the informal setting of the Alps, students
+and lecturers have the time to work through the material together and to begin
+new collaborations.
+
+The full programme, speakers, and registration for each edition are hosted on
+its Indico page, linked below.
 
 ## Editions
 
