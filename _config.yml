@@ -25,6 +25,8 @@ twitter_username:
 github_username:
 minimal_mistakes_skin: "air"
 search: true
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
@@ -53,7 +55,6 @@ include:
 # Plugins (previously gems:)
 plugins:
   - jekyll-include-cache
-  - jekyll-feed
   - jekyll-sitemap
 
 author:

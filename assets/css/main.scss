@@ -12,11 +12,6 @@ $primary-color: #b32a28;
 // Body links in the brand red (set before the imports so skin `!default`s skip).
 $link-color: $primary-color;
 
-// Cormorant Garamond display serif for headings — echoes the ALPS logo
-// wordmark. The font itself is loaded via Google Fonts in
-// _includes/head/custom.html.
-$header-font-family: "Cormorant Garamond", "Georgia", serif;
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
