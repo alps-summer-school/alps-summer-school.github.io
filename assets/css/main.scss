@@ -9,6 +9,13 @@
 
 // ALPS brand red — replaces the "air" skin's $primary-color (#0092ca).
 $primary-color: #b32a28;
+// Body links in the brand red (set before the imports so skin `!default`s skip).
+$link-color: $primary-color;
+
+// Cormorant Garamond display serif for headings — echoes the ALPS logo
+// wordmark. The font itself is loaded via Google Fonts in
+// _includes/head/custom.html.
+$header-font-family: "Cormorant Garamond", "Georgia", serif;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -93,4 +100,13 @@ a.team-card__link:hover .team-card__name {
   margin: 0.15em 0 0;
   font-size: 0.8em;
   color: $muted-text-color;
+}
+
+/* ===== ALPS footer attribution — inherits the footer's text color ===== */
+.alps-footer {
+  margin-bottom: 0.5em;
+}
+
+.alps-footer a {
+  text-decoration: underline;
 }
